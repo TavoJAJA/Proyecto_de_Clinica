@@ -21,7 +21,15 @@ public class menusComida extends clinica
     }
 
     private void Super(Double precioComida, Double cobrarComida) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        throw new UnsupportedOperationException("Not supported yet."); 
     }
+    
+    comidasjsjs comida1=new comidasjsjs() {
+        @Override
+        public void comidas() 
+        {
+            
+        }
+    };
     
 }
