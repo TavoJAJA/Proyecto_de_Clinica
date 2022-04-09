@@ -236,6 +236,34 @@ public class clinica {
         }
         
     }
+     
+     //clases abstractas
+    
+    public abstract class comidasjsjs
+    {
+        private String ingredientes;
+        private String menus; 
+        private double precio; 
+    
+        public void setprecio(double pre)
+        {
+            precio=pre;
+        }
+       
+     public abstract void comidas();   
+     
+    }
+  
+    public abstract class costoMedicamentos
+    {
+       private String categoriaMedicamentos; 
+       private double costoMedicamento; 
+       
+       public void setprecioMedicamento1(double medicamentosprecio)
+       {
+           costoMedicamento=medicamentosprecio; 
+       }
+    }
        
 }
 
