@@ -21,7 +21,13 @@ public class farmaciaClinica extends clinica
     }
 
     private void Super(Double precioMedicamentos) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        throw new UnsupportedOperationException(); 
     }
     
-}
+    costoMedicamentos medicamentos1=new costoMedicamentos()
+    {
+        public void medicina ()
+        {
+            
+        }
+};
